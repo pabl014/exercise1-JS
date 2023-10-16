@@ -9,10 +9,10 @@ header {
     background-color: rgba(255, 179, 47, 0.754);
     display: flex;
     justify-content: center;
-    
+
 }
 
-header ul{
+header ul {
     display: flex;
     width: 100%;
     list-style-type: none;
@@ -54,13 +54,16 @@ nav {
 .author p {
     display: flex;
     justify-content: center;
-
     width: 50%;
+}
+
+.author span {
+    font-weight: bolder;
 }
 
 .author img {
     display: flex;
-   
+    border-radius: 50%;
     width: 50%;
 }
 
@@ -71,8 +74,10 @@ footer {
     align-items: center;
     background-color: rgba(255, 179, 47, 0.754);
     margin-top: auto;
-    
+
 }
+
+
 
 footer ul {
     list-style-type: none;
