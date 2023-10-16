@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="stylesContact.css">
 </head>
 
 <body>
@@ -21,10 +22,10 @@
 
     <main>
         <h2>Contact us:</h2>
-        <form action="/submitted"></form>
+        <form action="/submitted">
             <div>
-                <label for="age">Select reason for contact: </label>
-                <select name="ages" id="age">
+                <label for="reason">Select reason for contact: </label>
+                <select name="reasons" id="reason">
                     <option value="changes" selected>Suggestion of changes</option>
                     <option value="bug">Report a bug</option>
                     <option value="other">Other</option>
@@ -33,7 +34,7 @@
 
             <div>
                 <label for="textfield">Write your message here:</label>
-                <textarea name="textfield" id="textf" cols="10" rows="10"></textarea>
+                <textarea name="textfield" id="textf" cols="50" rows="10"></textarea>
             </div>
 
             <div>
@@ -45,7 +46,11 @@
                 <button>Submit</button>
             </div>
         </form>
+
+        <img src="images/contactUs.jpeg" alt="">
     </main>
+
+    
 
     <footer>
         <h3>Our social media</h3>
